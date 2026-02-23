@@ -55,25 +55,15 @@ header ul .nav-menu{
 header .nav-menu .sub-menu{
     position:absolute;
     top:44PX;
-    /*bottom:0;*/
     left:0;
     width:150PX;
-    /*height:100%;*/
-    /*width:100%;*/
     background-color:#fff;
-    /*color:red;*/
-    /*border:solid 1px;*/
-    /*padding:6px 12px;*/
     display:none;
-
 }
 
 header .sub-menu li{
-    /*padding:6px 12px;*/
     display:block;
-    /*position:fixed;*/
     text-transform:capitalize;
-    /*width:100%;*/
     padding:10px 16px;
 }
 
@@ -122,7 +112,7 @@ header .nav-menu:hover .sub-menu{
 /*image section ending /////////////////////////////////////////////////////////*/
 
 .band-section{
-    padding:80px 280PX;
+    padding:70px 280PX 100px 280px;
 }
 .band-content{
     /*border:solid 1px;*/
@@ -155,7 +145,7 @@ header .nav-menu:hover .sub-menu{
 
 .band-content .band-content-image{
     /*border:solid 1px;*/
-    margin:50px 70px;
+    margin:50px 70px 0 70px;
     position:relative;
     text-align:center;
 }
@@ -191,6 +181,45 @@ header .nav-menu:hover .sub-menu{
     /*color:red;*/
     /*text-align:center;*/
 }
+
+/*// tour dates section starting //*/
+
+.tour-dates{
+    /*border:solid 1px;*/
+    padding:70PX 0 90PX 0;
+    background-color:black;
+}
+
+.tour-dates .tour-dates-container .p1, .tour-dates .tour-dates-container .p2:first-letter{
+    text-transform:uppercase;
+}
+
+.tour-dates-container{
+    border:solid 1px;
+    width:50%;
+    margin:auto;
+    text-align:center;
+}
+
+.tour-dates .tour-dates-container .p1{
+    font-size:30PX;
+    letter-spacing:4PX;
+    color:#fff;
+}
+
+.tour-dates .tour-dates-container .p2{
+    color:grey;
+    font-size:15px;
+    font-style:italic;
+    margin-top:15PX;
+}
+
+.tour-dates .tour-dates-container .month-solds{
+    background-color:#fff;
+    color:grey;
+    text-align:left;
+}
+
 }
 
 /*mobile media starting*/
